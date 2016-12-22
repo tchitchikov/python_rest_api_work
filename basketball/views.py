@@ -43,3 +43,22 @@ def game_detail(request, pk):
     elif request.method == 'DELETE':
         game.delete()
         return Response(status=status.HTTP_204_NO_CONTENT)
+
+
+def game_locations(request):
+    pass
+
+def game_location_detail(request):
+    pass
+
+def player_list(request):
+    pass
+
+def player_detail(request):
+    pass
+
+def scores_list(request):
+    pass
+
+def score_detail(request):
+    pass
